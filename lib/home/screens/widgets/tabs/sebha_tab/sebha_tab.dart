@@ -12,9 +12,23 @@ class _SebhaTabState extends State<SebhaTab> {
  List<String> azkar = [
    "سبحان الله",
    "الحمد لله",
+   "لا إله إلا الله",
+   "الله أكبر",
+   "أستغفر الله",
+   "أستغفر الله العظيم وأتوب إليه",
+   "سبحان الله وبحمده",
+   "سبحان الله العظيم",
+   "لا حول ولا قوة إلا بالله",
+   "اللهم صل وسلم على نبينا محمد",
+   "لا إله إلا أنت سبحانك إني كنت من الظالمين",
+   "حسبي الله لا إله إلا هو عليه توكلت وهو رب العرش العظيم",
+   "اللهم اغفر لي وارحمني واهدني وعافني وارزقني",
+   "رب اغفر لي وتب علي إنك أنت التواب الرحيم",
+   "اللهم إنك عفو تحب العفو فاعف عني",
 
  ];
  int index=0;
+ double angle=20;
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -47,7 +61,9 @@ class _SebhaTabState extends State<SebhaTab> {
                       Positioned(top: -height*.081,
                           child: Image.asset(AssetsManger.headOfSeb7a)),
 
-                      Image.asset(AssetsManger.SebhaBody),
+                      Transform.rotate(
+                          angle: angle,
+                          child: Image.asset(AssetsManger.SebhaBody)),
                     ],
                   ),
                 ),
@@ -88,6 +104,7 @@ class _SebhaTabState extends State<SebhaTab> {
      }
 
      counter++;
+     angle+=12;
 
 
    });
