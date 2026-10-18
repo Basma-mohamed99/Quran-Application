@@ -25,12 +25,12 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(resizeToAvoidBottomInset: false,
       bottomNavigationBar: NavigationBar
-        (
-        labelTextStyle: WidgetStateProperty.all(TextStyle(
+      (
+          labelTextStyle: WidgetStateProperty.all(TextStyle(
           fontSize: 12,
-          fontWeight: FontWeight.w700,
-          color: Colors.white
-        )),
+      fontWeight: FontWeight.w700,
+      color: Colors.white
+      )),
         labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
         maintainBottomViewPadding: true,
         backgroundColor: ApplicationColors.gold,

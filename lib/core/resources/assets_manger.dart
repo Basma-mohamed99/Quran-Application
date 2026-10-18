@@ -13,6 +13,7 @@ abstract final class AssetsManger {
  static const  String img_bottom_decoration ="assets/images/img_bottom_decoration.png";
  static const  String img_left_corner ="assets/images/img_left_corner.png";
  static const  String img_right_corner ="assets/images/img_right_corner.png";
+ static const  String HadithCardBackGround ="assets/images/HadithCardBackGround 1.png";
 
 }
 abstract final class  IconsManger {
