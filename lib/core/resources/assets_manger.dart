@@ -14,7 +14,9 @@ abstract final class AssetsManger {
  static const  String img_left_corner ="assets/images/img_left_corner.png";
  static const  String img_right_corner ="assets/images/img_right_corner.png";
  static const  String HadithCardBackGround ="assets/images/HadithCardBackGround 1.png";
-
+ static const  String SebhaBody ="assets/images/SebhaBody .png";
+ static const  String headOfSeb7a="assets/images/head of seb7a.png";
+ static const  String BackgroundOfSebha="assets/images/BackgroundOfSebha.png";
 }
 abstract final class  IconsManger {
  static const  String hadeth_icon ="assets/images/hadeth_icon.svg";
